@@ -24,5 +24,13 @@ from ragas.testset.graph import KnowledgeGraph, Node, NodeType
 
 **Step 4:** Adding your changes to RAGAS and syncing
 
-1. Edit code in ./ragas folder
+1. Edit code in ./ragas folder or pull it with the following commands
+
+```
+# For reinstalling after remote changes
+cd packages/ragas
+git pull origin ragas-mipt
+cd ../../
+```
+
 2. Rebuild the project `uv add ragas --reinstall`
